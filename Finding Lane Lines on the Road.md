@@ -27,9 +27,7 @@ The goals / steps of this project are the following:
 
 ---
 
-## Reflection
-
-###1.
+### 1.Reflection
 
 The original image:
 
@@ -74,12 +72,12 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 ![alt][image8]
 
 ---
-###2. Identify potential shortcomings with your current pipeline
+### 2. Identify potential shortcomings with your current pipeline
 
 * The current algorithm will be likely fall on curve road or snow road. 
 * May be bright sunshine will distort the video input with glares and reflections.
 ---
-###3. Suggest possible improvements to your pipeline
+### 3. Suggest possible improvements to your pipeline
 
 * To make the algorithm more robust I think to use polynominal line more than first order. 
 * Also it should eliminate snow or water spots on the road to recognize lane lines correct
