@@ -6,31 +6,46 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
+
+[image0]: ./pipeline/whiteCarLaneSwitch.jpg "WhiteCarLaneSwitch"
+
 [image1]: ./pipeline/grayscale.jpg "Grayscale"
+
 [image2]: ./pipeline/filter.jpg "After filtering"
+
 [image3]: ./pipeline/blur.jpg "Blur"
+
 [image4]: ./pipeline/left_edges.jpg "Left edges"
+
 [image5]: ./pipeline/right_edges.jpg "Right edges"
+
 [image6]: ./pipeline/left_line.jpg "Left line"
+
 [image7]: ./pipeline/right_line.jpg "Right line"
+
 [image8]: ./pipeline/final.jpg "Final"
+
 ---
 
 ## Reflection
 
 ###1.
 
+The original image:
+
+![alt][image0]
+
 My pipeline consisted of 5 steps.
 
 ### Step 1
-First, I converted the images to grayscale.
+First, I converted the image to grayscale.
 
 ![alt][image1]
 
 ### Step 2
 Then, I applied yellow and white filter. For that I converted the image to HSV color scheme. I chose the upper and lower values for yellow and white colors with help of this site: http://colorizer.org/. Then I combined masks for these colors and applied full mask on the grayscale.
 
-![alt][image1]
+![alt][image2]
 
 ### Step 3
 
